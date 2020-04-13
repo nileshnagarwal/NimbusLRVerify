@@ -1,0 +1,38 @@
+mat-card {
+    text-align: center;
+    margin: 5em;
+}
+
+.error {
+    color: red;
+    padding: 2em;
+}
+
+.lr-details-container {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: auto;
+}
+
+.lr-details {
+    font-family: Calibri, Open Sans, sans-serif;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    font-size: 1.2em;
+}
+
+mat-card:nth-child(2) > mat-card-title {
+    font-size: 1.5em;
+    color: limegreen;
+}
+
+mat-card-content > div > div:nth-child(odd) {
+    text-align: left;
+    padding: 5px;
+}
+
+mat-card-content > div > div:nth-child(even) {
+    font-family: Calibri, Open Sans, sans-serif;
+    text-align: right;
+    padding: 5px;
+}
