@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  baseUrl: 'https://nimbuslogistics.in/',
+  baseUrl: 'https://nimbustech.space/',
 };
